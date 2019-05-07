@@ -22,5 +22,5 @@ class MessageEndpointTest {
     String expected = "Good news: learning devops and use dockerhub!\"";
     assertEquals(expected, actual);
   }
-  
+
 }
