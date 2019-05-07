@@ -14,9 +14,4 @@ public class NewsEndpoint {
     return "Good news: learning devops and use dockerhub!";
   }
 
-  @PostMapping
-  String post() {
-    return "I'm OK.";
-
-  }
 }

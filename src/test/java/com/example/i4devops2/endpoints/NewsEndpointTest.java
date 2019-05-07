@@ -22,12 +22,5 @@ class MessageEndpointTest {
     String expected = "Good news: learning devops and use dockerhub!\"";
     assertEquals(expected, actual);
   }
-
-  @Test
-  void post() {
-    String goodNews = "I'm OK.";
-    String actual = restTemplate.postForObject(url, goodNews , String.class);
-    String expected = "I'm OK.";
-    assertEquals(expected, actual);
-  }
+  
 }
